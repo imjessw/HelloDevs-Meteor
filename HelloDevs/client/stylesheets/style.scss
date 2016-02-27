@@ -70,3 +70,13 @@ $susy: (
 p{
   margin: 0;
 }
+#introToHD{
+  @include span(1 at 1 of 3);
+}
+#photo1{
+  @include span(1 at 2 of 3);
+
+}
+#photo2{
+  @include span(1 at 3 of 3);
+}
