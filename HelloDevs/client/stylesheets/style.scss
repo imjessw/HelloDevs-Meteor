@@ -26,7 +26,8 @@ $susy: (
 }
 .social-media {
   @include span(1 at 1 of 3);
-  padding-top: 48px; // TODO: find a better way to vertically center this content!
+  padding-top: 48px; 
+  /*TODO: find a better way to vertically center this content!*/
   .twitter, .linkedin, .facebook {
     display: inline;
     margin: 5px;
@@ -79,4 +80,12 @@ p{
 }
 #photo2{
   @include span(1 at 3 of 3);
+}
+
+/*UNCOMMON CONVENTIONS*/
+.tAc{
+  text-align: center;
+}
+.m0a{
+  margin:0 auto;
 }
