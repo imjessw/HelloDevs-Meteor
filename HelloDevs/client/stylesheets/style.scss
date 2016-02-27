@@ -86,6 +86,15 @@ p{
   @include span(1 at 3 of 3);
 }
 
+/*.twitterFeedSection{
+ width: 500px;
+ background-color: #FFFFFF;
+ opacity: .4;
+ height: 500px;
+}*/
+.twitter-timeline{
+  float:right;
+}
 /*UNCOMMON CONVENTIONS*/
 .tAc{
   text-align: center;
