@@ -4,6 +4,7 @@
 
 
 $desktop-width: 750px;
+/*$desktop-width: 80%;*/
 $white: #FFFFFF;
 
 $susy: (
@@ -67,7 +68,7 @@ $susy: (
   background-color: #ece8ea;
   background-image: url("BG_img.png");
   background-repeat: repeat-y;
-  height: 600px;
+  min-height: 600px;
 }
 
 p{
