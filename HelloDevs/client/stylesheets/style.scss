@@ -60,6 +60,7 @@ $susy: (
 // Index page - TODO: think about extracting this into its own file
 .main {
   width: $desktop-width;
+  margin: 0 auto;
 }
 
 .mainBackground{
@@ -68,22 +69,29 @@ $susy: (
   background-repeat: repeat-y;
   height: 600px;
 }
+
+p{
+  margin: 0;
+  display: inline-block;
+}
+.gallery p{
+  @include gallery(4 of 12);
+}
+.gallery img{
+  @include gallery(4 of 12);
+}
+.applyButton{
+  width: span(5);
+  background-color:#e12983;
+  color: white;
+  text-transform: uppercase;
+  border: solid #e12983; 
+  font: Lato Ultra-bold 900;
+
+}
 .footer{
   background-color: #484f68;
   min-height: 200px;
-}
-p{
-  margin: 0;
-}
-#introToHD{
-  @include span(1 at 1 of 3);
-}
-#photo1{
-  @include span(1 at 2 of 3);
-
-}
-#photo2{
-  @include span(1 at 3 of 3);
 }
 
 /*.twitterFeedSection{
